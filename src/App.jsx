@@ -1,16 +1,27 @@
 import React from 'react';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
-import RadioPlayer from './components/RadioPlayer'; // Assuming this exists
+import RadioPlayer from './components/RadioPlayer';
+import StationBanner from './components/StationBanner';
+import AdvertSection from './components/AdvertSection'; // Make sure this component exists
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <Navbar />
+      <StationBanner />
+
       <main className="main-content">
-        <RadioPlayer />
+        <div id="live">
+          <RadioPlayer />
+        </div>
+
+        <div id="adverts">
+          <AdvertSection />
+        </div>
       </main>
+
       <Footer />
     </div>
   );

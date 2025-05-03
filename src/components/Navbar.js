@@ -11,15 +11,13 @@ function Navbar() {
       </div>
 
       <div className="navbar-center">
-        {/* <ul className="nav-links">
-          <li><a href="/">Home</a></li>
-          <li><a href="/live">Live</a></li>
-          <li><a href="/about">About</a></li>
-        </ul> */}
+      <ul className="nav-links">
+  <li><a href="/">Home</a></li>
+  <li><a href="#live">Live</a></li>
+  <li><a href="#adverts">Adverts</a></li>
+</ul>
         <p className="welcome-message">
-          Welcome to the innovation of tomorrow today,<br/>
-          feel the pulse of the city—an accompaniment for life.<br/>
-          <em>VOICE FM “ANCHOR OF THE NATION”</em>
+        
         </p>
       </div>
 

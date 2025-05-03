@@ -1,0 +1,82 @@
+/* components/StationBanner.css */
+.station-banner {
+  position: relative;
+  text-align: center;
+  margin-bottom: 2rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+.station-banner-img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  filter: brightness(50%);
+  display: block;
+}
+
+.banner-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  width: 90%;
+  text-align: center;
+  padding: 0 1rem;
+}
+
+.banner-text {
+  background: rgba(0, 0, 0, 0.5);
+  display: inline-block;
+  padding: 1rem 1.5rem;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  line-height: 1.4;
+  max-width: 100%;
+}
+
+.manager-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.manager-photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  object-fit: cover;
+}
+
+.manager-name {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px black;
+  text-align: center;
+}
+
+/* ✅ Mobile Styles */
+@media (max-width: 600px) {
+  .banner-text {
+    font-size: 1rem;
+    padding: 0.8rem 1rem;
+  }
+
+  .manager-photo {
+    width: 120px;
+    height: 120px;
+  }
+
+  .manager-name {
+    font-size: 1.2rem;
+  }
+
+  .banner-overlay {
+    top: 55%; /* Adjust vertical position for smaller screens */
+  }
+}

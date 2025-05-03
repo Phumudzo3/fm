@@ -1,21 +1,33 @@
-.radio-container {
-    text-align: center;
-    padding: 2rem;
-    max-width: 800px;
-    margin: 0 auto;
-  }
-  
-  .zeno-link {
-    font-size: 0.9em;
-    line-height: 10px;
-    display: block;
-    margin-top: 0.5rem;
-    color: #333;
-    text-decoration: none;
-  }
-  
-  .zeno-link:hover {
-    text-decoration: underline;
-  }
-  
-  
+.card-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.image-card {
+  width: 220px;
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  text-align: center;
+  transition: transform 0.2s ease;
+}
+
+.image-card:hover {
+  transform: scale(1.05);
+}
+
+.image-card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+
+.image-card h4 {
+  margin: 10px;
+  font-size: 13px;
+  color: #333;
+}
