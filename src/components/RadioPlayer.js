@@ -3,11 +3,11 @@ import './RadioPlayer.css'; // make sure this file has the card-gallery and imag
 import AdvertSection from './AdvertSection';
 
 const imageCards = [
-  { title: 'lunch factor weekends 12:00 - 16:00', imageUrl: '/images/lunch factor weekends.jpg' },
-  { title: 'electro club 14:00 - 18:00',          imageUrl: '/images/electro-club.jpg'          },
-  { title: 'voice drive 16:00 -19:00',            imageUrl: '/images/voice drive.jpg'           },
-  { title: 'vodacom vup request 18:00 - 21:00',   imageUrl: '/images/vodacom vup request.jpg'   },
-  { title: 'essential nyts show 20:00 - 00:00',   imageUrl: '/images/essential nyts show.jpg'   },
+  { title: 'Lunch Factor Weekends 12:00 - 16:00', imageUrl: '/images/lunch factor weekends.jpg' },
+  { title: 'Electro Club 14:00 - 18:00',          imageUrl: '/images/electro-club.jpg'          },
+  { title: 'Voice Drive 16:00 -19:00',            imageUrl: '/images/voice drive.jpg'           },
+  { title: 'Vodacom Vup Request 18:00 - 21:00',   imageUrl: '/images/vodacom vup request.jpg'   },
+  { title: 'Essential Nyts Show 20:00 - 00:00',   imageUrl: '/images/essential nyts show.jpg'   },
 ];
 
 const RadioPlayer = () => {
