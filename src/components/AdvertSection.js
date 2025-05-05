@@ -12,7 +12,7 @@ const ads = [
 const AdvertSection = () => {
   return (
     <div className="advert-section">
-      <h2> Advertment</h2>
+      <h2> Advertisements</h2>
       <div className="advert-grid">
         {ads.map((ad, index) => (
           <div key={index} className="advert-card">
